@@ -1,3 +1,1 @@
-local hint = Instance.new("Hint")
-hint.Parent = workspace
-hint.Text = "It's not recommended to use drawings on weapons in current state of it."
+
