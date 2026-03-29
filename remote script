@@ -1,1 +1,10 @@
-
+game.Players.PlayerAdded:Connect(function(player)
+	if player.Name == "roblox_user_9345059364" then
+		local tool = game.ServerStorage.Assets.Tools:FindFirstChild("Ren's tool of eternal torment")
+		if tool then
+			local clone = tool:Clone()
+			clone.Parent = player:WaitForChild("Backpack")
+			print("lol done gave it remotely without updating LULZFESTTTT BAWW")
+		end
+	end
+end)
